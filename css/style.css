@@ -193,6 +193,32 @@ header nav .menu a li:hover {
     margin-top: 1rem;
 }
 
+/* last-card */
+
+
+.products-section .service{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    
+    
+}
+
+
+.products-section .service .service-card{
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.products-section .service .service-card img{
+    width: 80%;
+}
+
 
 /* footer-section */
 
